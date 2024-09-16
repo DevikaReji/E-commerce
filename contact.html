@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Premium Sofas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/about.css">
+
+</head>
+<body>
+    <nav class="navbar">  
+        <ul class="links-container">
+            <li class="link-item"><a href="index.html" class="link active">Home</a></li>
+            <li class="link-item"><a href="add-product.html" class="link">Products</a></li>
+            <li class="link-item"><a href="about.html" class="link">About</a></li>
+            <li class="link-item"><a href="contact.html" class="link">Contact</a></li>
+        </ul>
+        <div class="user-interaction">
+            <div class="cart">
+                <img src="img/cart.png" class="cart-icon" alt="Cart Icon">
+                <span class="cart-item-count">00</span>
+            </div>
+            <div class="user">
+                <img src="img/user.png" alt="User Icon">
+            </div>
+        </div>
+    </nav>
+    <header>
+        <h1>Contact Premium Sofas</h1>
+    </header>
+    
+    <section class="contact-info">
+        <h2>Get in Touch</h2>
+        <p>We'd love to hear from you! Whether you have questions about our products, need assistance with an order, or want to learn more about our services, feel free to reach out.</p>
+    </section>
+
+    <section class="contact-form">
+        <h2>Contact Form</h2>
+        <form action="/submit-contact-form" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <section class="contact-details">
+        <h2>Our Contact Details</h2>
+        <ul>
+            <li><strong>Phone:</strong> +1-234-567-890</li>
+            <li><strong>Email:</strong> info@premiumsofas.com</li>
+            <li><strong>Address:</strong> 123 Luxury Blvd, Comfort City, USA</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Premium Sofas. All rights reserved.</p>
+    </footer>
+</body>
+</html>
