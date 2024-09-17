@@ -20,7 +20,7 @@ document.getElementById('product-title').innerText = product.title;
 document.getElementById('product-image').src = product.image;
 document.getElementById('product-description').innerText = product.description;
 document.getElementById('product-rating').innerText = `Rating: ${product.rating}`;
-document.getElementById('product-price').innerText = `Rating: ${product.price}`;
+document.getElementById('product-price').innerText = `Price: ${product.price}`;
 
 
 // Add to Cart Functionality
